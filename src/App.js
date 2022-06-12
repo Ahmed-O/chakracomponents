@@ -4,6 +4,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import Simple from './components/Simple';
 import ProdDetails from './components/ProdDetails';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ColorModeSwitcher />
       <Simple />;
       <ProdDetails />
+      <ShoppingCart />
     </>
   );
 }
