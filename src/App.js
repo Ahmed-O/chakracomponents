@@ -11,8 +11,8 @@ function App() {
     <>
       <ProdDetails />
       <ColorModeSwitcher />
-      {/* <Simple />;
-      <ShoppingCart /> */}
+      {/* <Simple />; */}
+      <ShoppingCart />
     </>
   );
 }
