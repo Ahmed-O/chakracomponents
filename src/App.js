@@ -9,10 +9,10 @@ import ShoppingCart from './components/ShoppingCart';
 function App() {
   return (
     <>
-      <ColorModeSwitcher />
-      <Simple />;
       <ProdDetails />
-      <ShoppingCart />
+      <ColorModeSwitcher />
+      {/* <Simple />;
+      <ShoppingCart /> */}
     </>
   );
 }
