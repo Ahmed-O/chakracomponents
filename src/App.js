@@ -5,14 +5,15 @@ import { Logo } from './Logo';
 import Simple from './components/Simple';
 import ProdDetails from './components/ProdDetails';
 import ShoppingCart from './components/ShoppingCart';
+import GithubButton from './components/GithubButton';
+import DiscordButton from './components/DiscordButton';
 
 function App() {
   return (
     <>
-      <ProdDetails />
-      <ColorModeSwitcher />
-      {/* <Simple />; */}
-      <ShoppingCart />
+      {/* <ProdDetails /> */}
+      <GithubButton />
+      <DiscordButton />
     </>
   );
 }
