@@ -7,13 +7,12 @@ import ProdDetails from './components/ProdDetails';
 import ShoppingCart from './components/ShoppingCart';
 import GithubButton from './components/GithubButton';
 import DiscordButton from './components/DiscordButton';
+import CopiedCarousel from './components/CopiedCarousel.jsx';
 
 function App() {
   return (
     <>
-      {/* <ProdDetails /> */}
-      <GithubButton />
-      <DiscordButton />
+      <CopiedCarousel />
     </>
   );
 }
