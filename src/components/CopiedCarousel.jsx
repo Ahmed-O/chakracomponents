@@ -72,7 +72,7 @@ export default function CopiedCarousel() {
         <Flex h="400px" w="full" {...carouselStyle}>
           {slides.map((slide, sid) => (
             <Box key={`slide-${sid}`} boxSize="full" shadow="md" flex="none">
-              <Text
+              {/* <Text
                 color="white"
                 fontSize="xs"
                 p="8px 12px"
@@ -80,7 +80,7 @@ export default function CopiedCarousel() {
                 top="0"
               >
                 {sid + 1} / {slidesCount}
-              </Text>
+              </Text> */}
               <Image
                 src={slide.img}
                 alt="carousel image"
@@ -105,7 +105,7 @@ export default function CopiedCarousel() {
               cursor="pointer"
               boxSize={["7px", null, "15px"]}
               m="0 2px"
-              bg={currentSlide === slide ? "white" : "whiteAlpha.500"}
+              bg={currentSlide === slide ? "white" : "whiteAlpha.700"}
               rounded="50%"
               display="inline-block"
               transition="background-color 0.6s ease"

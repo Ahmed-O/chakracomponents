@@ -8,11 +8,13 @@ import ShoppingCart from './components/ShoppingCart';
 import GithubButton from './components/GithubButton';
 import DiscordButton from './components/DiscordButton';
 import CopiedCarousel from './components/CopiedCarousel.jsx';
+import MultiImageCarousel from './components/MultiImageCarousel';
 
 function App() {
   return (
     <>
       <CopiedCarousel />
+      <MultiImageCarousel />
     </>
   );
 }
