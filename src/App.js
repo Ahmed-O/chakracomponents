@@ -14,9 +14,10 @@ import Tabs from './components/Tabs';
 function App() {
   return (
     <>
-      {/* <CopiedCarousel />
-      <MultiImageCarousel /> */}
-      <Tabs />
+      {/* <ColorModeSwitcher /> */}
+      {/* <CopiedCarousel /> */}
+      <MultiImageCarousel />
+      {/* <Tabs /> */}
     </>
   );
 }

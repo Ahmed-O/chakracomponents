@@ -7,8 +7,8 @@ export default function MultiImageCarousel() {
   const arrowStyles = {
     cursor: "pointer",
     pos: "absolute",
-    top: "75%",
-    w: "auto",
+    top: "50%",
+    //w: "auto",
     p: "15px",
     color: "white",
     _hover: {
@@ -70,7 +70,8 @@ export default function MultiImageCarousel() {
   return (
     <Flex w="full" bg={useColorModeValue('gray.100', 'gray.900')} p={10}
       alignItems="center"
-      justifyContent="center">
+      justifyContent="center"
+      pos="relative">
       <Flex w={"full"} pos={"relative"} overflow={"hidden"} ref={carouselElement} scrollBehavior={"smooth"}>
         <Flex h="400px" w="full" gap={5}>
           {cards.map((card)=>{
