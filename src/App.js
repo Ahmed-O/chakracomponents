@@ -9,12 +9,14 @@ import GithubButton from './components/GithubButton';
 import DiscordButton from './components/DiscordButton';
 import CopiedCarousel from './components/CopiedCarousel.jsx';
 import MultiImageCarousel from './components/MultiImageCarousel';
+import Tabs from './components/Tabs';
 
 function App() {
   return (
     <>
-      <CopiedCarousel />
-      <MultiImageCarousel />
+      {/* <CopiedCarousel />
+      <MultiImageCarousel /> */}
+      <Tabs />
     </>
   );
 }
